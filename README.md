@@ -4,11 +4,14 @@ Custom Homebrew tap for tools and MCP servers by [@vmikhailov](https://github.co
 
 ## Available Formulas
 
+- **ce**: Codebase intelligence CLI and knowledge graph engine.
 - **cypher-mcp**: Zero-CGO Model Context Protocol (MCP) server & standalone CLI tool for SQLite with OpenCypher.
 
 ## Installation
 
 ```bash
+brew install vmikhailov/tap/ce
+# or
 brew install vmikhailov/tap/cypher-mcp
 ```
 
@@ -16,5 +19,6 @@ Or add the tap first:
 
 ```bash
 brew tap vmikhailov/tap
+brew install ce
 brew install cypher-mcp
 ```
