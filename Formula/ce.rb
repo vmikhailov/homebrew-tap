@@ -1,26 +1,26 @@
 class Ce < Formula
   desc "Codebase intelligence CLI and knowledge graph engine"
   homepage "https://github.com/vmikhailov/code-explorer"
-  version "1.90.11"
+  version "1.90.12"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.11/ce-osx-arm64.tar.gz"
-      sha256 "0abb3c4e3c735de68e3dc4c6574726261ad7ba709ede02e0d348133ab3ef2580"
+      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-osx-arm64.tar.gz"
+      sha256 "ca013a6a0486f3e85d25eef3b3e905654e901f52ebba57fe93304ab53892b652"
     else
-      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.11/ce-osx-x64.tar.gz"
-      sha256 "e11344476eff7914cdf68600afcb3178bfd14af6baa7717b6fc6702ced26fda2"
+      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-osx-x64.tar.gz"
+      sha256 "baf428230af844ca48d4cd0caae46c5f5b98cf5b9539feb5ef0d40c9c970b03a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.11/ce-linux-arm64.tar.gz"
-      sha256 "fa527ef96da9a91a060e3ceec2be0e7ee338fc6ebedeec3b023c430191d45aba"
+      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-linux-arm64.tar.gz"
+      sha256 "b6f98e5656458722a93b7777324d3d35236e6f7f7abd01b2e13d7dfea66127bc"
     else
-      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.11/ce-linux-x64.tar.gz"
-      sha256 "a74c56b275aaa7b36e437fe3625e2a5c31f4fa684f1642d5856ea6c2cdb7f2df"
+      url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-linux-x64.tar.gz"
+      sha256 "0d25fe845e20259968eba58da67cf629bb0a77f28e3df373023f116ea670d8d7"
     end
   end
 
