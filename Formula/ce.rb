@@ -7,20 +7,20 @@ class Ce < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-osx-arm64.tar.gz"
-      sha256 "ca013a6a0486f3e85d25eef3b3e905654e901f52ebba57fe93304ab53892b652"
+      sha256 "d25745f85d2b5207b2b759402e07b974a3473898027b1d8e8ca2276dc5767cb8"
     else
       url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-osx-x64.tar.gz"
-      sha256 "baf428230af844ca48d4cd0caae46c5f5b98cf5b9539feb5ef0d40c9c970b03a"
+      sha256 "4e7a202b50f041cb181d0da08df344e12853e199bc8a179baf3dc0cd1441dfa7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-linux-arm64.tar.gz"
-      sha256 "b6f98e5656458722a93b7777324d3d35236e6f7f7abd01b2e13d7dfea66127bc"
+      sha256 "dbad58445c492445406445218f2078d6bd033b0500212124b0db813952e7b7f7"
     else
       url "https://github.com/vmikhailov/code-explorer/releases/download/v1.90.12/ce-linux-x64.tar.gz"
-      sha256 "0d25fe845e20259968eba58da67cf629bb0a77f28e3df373023f116ea670d8d7"
+      sha256 "cc555c6dc54f98bd98abc46b31c68b6bb8a14b56649581759cfe9092715bea0d"
     end
   end
 
